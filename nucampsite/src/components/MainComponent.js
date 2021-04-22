@@ -57,7 +57,7 @@ class Main extends Component {
                 <Footer />
             </div>
         );
-    };
+    }
 }
 
 export default withRouter(connect(mapStateToProps)(Main));
