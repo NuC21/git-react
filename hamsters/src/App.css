@@ -2,8 +2,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, .card-body>.card-title {
-  font-family: "Lobster", cursive;
+h1, .card-body>.card-title {
+  font-family: "Goudy Bookletter 1911", fantasy;
+}
+
+h2, h3, .card-body>.card-title {
+  font-family: "Monac", monospace;
 }
 
 .card-title {
@@ -16,8 +20,8 @@ h2 {
 }
 
 .card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(77, 48, 4);
+  background-color: rgba(99, 61, 4, 0.212);
 }
 
 .row-content {
@@ -27,14 +31,14 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(#f0e098, rgb(150, 145, 141));
   padding: 20px 0;
 }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  background-image: linear-gradient(to right, #9e5a0c, #e98c12, #60106B);
   color: white;
 }
 
@@ -43,7 +47,7 @@ h2 {
 }
 
 .navbar-dark {
-  background-color: #901CAD;
+  background-color: #3d2005;
 }
 
 .page-enter {

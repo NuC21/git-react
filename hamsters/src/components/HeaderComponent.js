@@ -45,7 +45,7 @@ class Header extends Component {
                         <div className="row">
                             <div className="col">
                                 <h1>DWARF HAMSTERS</h1>
-                                <img src="/assets/images/robov.png" height="100" width="100" alt="NuCamp Logo" />
+                                <img src="/assets/images/robov.png" height="100" width="100" alt="Cuute Roborovski" />
                                 <h2>THE BEST APARTMENT PET</h2>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ class Header extends Component {
 
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/robov.png" height="40" width="40" alt="NuCamp Logo" /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/robov.png" height="40" width="40" alt="Cute Roborovski" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>

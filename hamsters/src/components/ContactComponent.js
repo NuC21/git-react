@@ -57,9 +57,9 @@ class Contact extends Component {
                     <div className="col-sm-4">
                         <h5>Our Address</h5>
                         <address>
-                            Hamsters Are Everywhere<br />
+                            Domesticated Hamsters ARE Everywhere<br />
                             USA<br />
-                            U.S.A.
+                            and the World
                         </address>
                     </div>
                     <div className="col">
@@ -70,7 +70,7 @@ class Contact extends Component {
         
                 <div className="row row-content">
                     <div className="col-12">
-                        <h2>Send us your Feedback</h2>
+                        <h2>Feedback or ask for Subscription Login (Paid coming soon)</h2>
                         <hr />
                     </div>
                     <div className="col-md-10">

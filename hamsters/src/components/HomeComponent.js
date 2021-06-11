@@ -4,6 +4,7 @@ import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
 import { FadeTransform } from 'react-animation-components';
 
+
 function RenderCard({item, isLoading, errMess}) {
     console.log(isLoading, item, errMess)
     if (isLoading) {
@@ -40,6 +41,7 @@ function Home(props) {
                     <p>Highlighting to the WORLD why Roborovski's are the best pets</p>
                 </div>
             </div>
+               
            
         </div>
     );

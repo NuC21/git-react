@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function About(props) {
 
     return (
@@ -39,19 +40,31 @@ function About(props) {
                                 <dd className="col-6">Phodopus roborovskii</dd>
                             </dl>
                         </CardBody>
-                    </Card>
+                    </Card>  
                 </div>
                 <div className="col">
+                <Card className="bg-light mt-3">    
+                        <CardBody>
+                            <blockquote className="blockquote">
+                                <p className="mb-0">- Since they are desert animals, they don't consume a lot of liquids. </p>
+                                <p className="mb-0">- As the smallest hamster, they run very fast and don't like to be handled as much as other Dwarfs. </p>
+                                <p className="mb-0">- Small means: they are economical to feed and a dry mix works great. </p>
+                                <p className="mb-0">- They can eat small insects (like mealworms), cheese, meats in small quantities. </p>
+                            
+                            </blockquote>
+                        </CardBody>
+                    </Card>
                     <Card className="bg-light mt-3">
                         <CardBody>
                             <blockquote className="blockquote">
-                                <p className="mb-0">The Roborovski hamster, also known as the desert hamster or Robo dwarf hamster, is the smallest of three species of hamsters.</p>
+                                <p className="mb-0">The Roborovski hamster, also known as the desert hamster or Robo dwarf hamster, is the smallest species of hamster.</p>
                                 <footer className="blockquote-footer">Derived from the the deserts of Central Asia{' '}
                                     <cite title="Source Title">"Wikipedia"</cite>
                                 </footer>
                             </blockquote>
                         </CardBody>
                     </Card>
+                    
                 </div>
             </div>
            
