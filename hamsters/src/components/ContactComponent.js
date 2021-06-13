@@ -70,7 +70,7 @@ class Contact extends Component {
         
                 <div className="row row-content">
                     <div className="col-12">
-                        <h2>Feedback or ask for Subscription Login (Paid coming soon)</h2>
+                        <h2>Feedback or Access to Login (Donation for more content)</h2>
                         <hr />
                     </div>
                     <div className="col-md-10">

@@ -12,28 +12,28 @@ class Species extends Component {
                     name: "Russian Campbell",
                     image: "/assets/images/cambham.png",
                     featured: false,
-                    description: "This hamster is only about 4 inches long and can be found in different colours."
+                    description: "This hamster is only about 4 inches long and can be found in the the most variety of colours."
                 },
                 {
                     id: 1,
                     name: "Russian Winter White",
                     image: "/assets/images/winterwhite.png",
                     featured: false,
-                    description: "This hamster is a little smaller than the Campbell, being about 3 and a half inches long. It only comes in five colors currently - Normal, sapphire, normal pearl, sapphire pearl and mottled."
+                    description: "Smaller than the Campbell, at about 3 and a half inches long. Comes in only five colors: Normal, sapphire, normal pearl, sapphire pearl and mottled."
                 },
                 {
                     id: 2,
                     name: "Roborovski",
                     image: "/assets/images/hameats.png",
                     featured: true,
-                    description: "This is the smallest of the hamsters and is also the fastest. Therefore, it is not recommended as a pet for young children. It comes in only a few brownish/white colors."
+                    description: "The smallest of the hamsters & the FASTEST! Therefore, not recommended as a pet for young children. Colors are only brownish/whitish."
                 },
                 {
                     id: 3,
                     name: "Chinese",
                     image: "/assets/images/babychinese.png",
                     featured: false,
-                    description: "Relatively uncommon and large at 5 inches to be called a Dwarf, these Rat-like hamsters have a much longer tail than the other pet hamsters. They come in only 2 colors."
+                    description: "Very uncommon & for a dwarf, large at 5 inches, these Rat-like hamsters have a much longer tail. They come in only 2 colors."
                 }
             
             ], 
@@ -57,7 +57,7 @@ class Species extends Component {
 
                 <div className="row row-content">
                     <div className="col-12">
-                    <h3>Species of Dwarf Hamsters</h3>
+                    <h1>Species of Dwarf Hamsters</h1>
                     </div>
                 </div>
                 <div className="row">

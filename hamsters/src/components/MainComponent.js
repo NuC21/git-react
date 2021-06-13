@@ -16,9 +16,8 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 const mapStateToProps = state => {
     return {
         hamsters: state.hamsters,
-        species: state.species
-  
-    
+        species: state.species,
+        feedback: state.feedback
     }
 }
 

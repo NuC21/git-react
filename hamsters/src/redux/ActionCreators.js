@@ -81,6 +81,7 @@ export const addHamsters = hamsters => ({
 
 
 export const postFeedback = feedback => () => {
+            console.log('feedback 1', feedback) 
 
     return fetch(baseUrl + 'feedback', {
             method: "POST",
@@ -90,9 +91,11 @@ export const postFeedback = feedback => () => {
             }
     })
         .then(response => {
+            console.log('feedback 2', feedback) 
                 if (response.ok) {
                     return response
                 } else {
+                    console.log('feedback 3', feedback) 
                     const error = new Error(`Error ${response.status}: ${response.statusText}`);
                     error.response = response
                     throw error;

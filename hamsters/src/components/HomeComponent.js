@@ -39,6 +39,10 @@ function Home(props) {
                 <div className="col-sm-6">
                     <h3>We Love Roborovski Hamsters</h3>
                     <p>Highlighting to the WORLD why Roborovski's are the best pets</p>
+                    <video width="500" height="500" controls autoplay loop >
+                        <source src="/assets/images/hamonwheel.mp4"  type="video/mp4"/>
+                        Your browser does not support the video tag. So you can't see Hammies Running.
+                    </video>
                 </div>
             </div>
                
